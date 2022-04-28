@@ -14,8 +14,8 @@ def is_anagram(first_string, second_string):
 def letter_counter(word):
     letter_counter = defaultdict(int)
 
-    for l in word:
-        letter_counter[l] += 1
+    for i in word:
+        letter_counter[i] += 1
 
     return letter_counter
 
